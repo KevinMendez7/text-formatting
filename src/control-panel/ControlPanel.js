@@ -22,6 +22,10 @@ class ControlPanel extends Component {
         fn.setUnderline(!value)
     }
 
+    handleSynonymous(e, fn, value){
+        e.preventDefault()
+    }
+
     render() {
         const { options, values } = this.props
         return (
@@ -37,6 +41,9 @@ class ControlPanel extends Component {
                     <button
                         onClick={ (e) => this.handleUnderlineFormat(e, options, values.underline)} 
                         className="format-action" type="button"><u>U</u></button>
+                        <button
+                        onClick={ (e) => this.handleSynonymous(e, options, values.underline)} 
+                        className="format-action" type="button"><u>S</u></button>
                 </div>
             </div>
         );

@@ -12,6 +12,7 @@
     "redux-immutable": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
+  "proxy": "https://api.datamuse.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
