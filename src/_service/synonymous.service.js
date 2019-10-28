@@ -1,4 +1,4 @@
-import {handleResponse} from '../util/HandleResponse'
+import {handleResponse} from '../util/handleResponse'
 
 export const getSynonymous = (word) => {
 

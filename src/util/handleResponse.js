@@ -1,5 +1,5 @@
 export const handleResponse = (response) => {
-    return response.text().then(text => {       
+    return response.text().then(text => {   
         if(response){
             try {
                 let data = text && JSON.parse(text)            

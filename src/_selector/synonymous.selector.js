@@ -1,0 +1,5 @@
+export const getSynonymous = state => state.get('synonymous').get('synonymous')
+export const getSynonymousValue = state => state.get('synonymous').get('synonymousValue')
+export const getStopRequest = state => state.get('synonymous').get('stopRequest')
+export const getChangeValue = state => state.get('synonymous').get('change')
+export const getRestart = state => state.get('synonymous').get('restart')
