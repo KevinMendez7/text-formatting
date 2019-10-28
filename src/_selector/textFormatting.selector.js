@@ -1,0 +1,5 @@
+export const getBold = state => state.get('textFormatting').get('bold')
+export const getItalic = state => state.get('textFormatting').get('italic')
+export const getUnderline = state => state.get('textFormatting').get('underline')
+export const getColor = state => state.get('textFormatting').get('color')
+export const getIndent = state => state.get('textFormatting').get('indent')
